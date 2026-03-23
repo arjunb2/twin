@@ -1,0 +1,4 @@
+RSA is a public key cryptographic algorithm used for secure communication.
+It is based on the mathematical properties of large prime numbers. Two prime numbers are selected and used to generate public and private keys.
+The process includes key generation, encryption, and decryption.
+The security of RSA depends on the difficulty of factoring large numbers, making it suitable for modern encryption systems.

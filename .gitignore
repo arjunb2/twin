@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+frontend/node_modules/
+data/faiss_index.bin
+data/metadata.json
+*.pyc

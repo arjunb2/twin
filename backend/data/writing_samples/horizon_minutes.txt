@@ -1,0 +1,7 @@
+TEAM HORIZON | Minutes of the meet
+
+This week was more about consistency than big milestones.
+The mechanical team continued working on suspension refinement. Most of the progress came from small iterations — testing, adjusting, and repeating the process.
+On the electronics side, integration is still ongoing. A few issues came up during testing, but they helped us identify what needs to be improved.
+We also started focusing more on documentation and how our work aligns with higher TRL levels.
+No major highlights this week, just steady progress.
