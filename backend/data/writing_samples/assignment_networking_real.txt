@@ -1,0 +1,74 @@
+TCP fairness ensures that all TCP connections sharing a network get an equal share of bandwidth.
+It prevents one connection from dominating network resources.
+This helps maintain balanced network performance.
+Fairness is commonly measured using Jain's fairness index.
+
+---
+
+Slow start is a congestion control mechanism in TCP.
+The congestion window (cwnd) starts from 1 MSS and increases exponentially.
+It grows with each acknowledgment received.
+This continues until the threshold value is reached.
+
+---
+
+Implicit signaling means the sender detects congestion through delayed or lost acknowledgments.
+There is no direct communication from the network.
+Explicit signaling directly informs congestion using bits in packets.
+This helps sender or receiver react quickly to congestion.
+
+---
+
+Silly Window Syndrome occurs when very small segments are transmitted frequently in TCP.
+This causes inefficient use of bandwidth and increases overhead.
+It reduces network performance.
+It is prevented using Nagle's algorithm and Clark's solution.
+
+---
+
+TCP connection termination uses a four-way handshake process.
+First, the client sends a FIN segment.
+The server responds with ACK and later sends its own FIN.
+Finally, the client sends ACK to close the connection.
+
+---
+
+The advertised window indicates how much data the receiver can accept.
+It helps the sender control transmission rate.
+A zero window occurs when the receiver buffer becomes full.
+The sender must stop transmission until space becomes available.
+
+---
+
+Class C IP addresses range from 192.0.0.0 to 223.255.255.255.
+They use the first 24 bits for network and remaining 8 bits for host.
+The default subnet mask is 255.255.255.0.
+Class C is mainly used for small networks.
+
+---
+
+A subnet mask divides an IP address into network and host portions.
+It helps identify whether devices belong to the same network.
+The subnet mask 255.255.0.0 belongs to Class B.
+It uses the first 16 bits for network identification.
+
+---
+
+In /16 CIDR notation, 16 bits are used for network and 16 bits for hosts.
+Total host addresses = 65536.
+Out of these, 2 addresses are reserved for network and broadcast.
+Therefore, usable hosts = 65534.
+
+---
+
+In the datagram approach, each packet is treated independently.
+There is no predefined path between source and destination.
+Packets may travel through different routes and arrive out of order.
+It is used in connectionless communication like IP.
+
+---
+
+FLSM stands for Fixed Length Subnet Mask.
+In this method, all subnets use the same subnet mask.
+Each subnet has equal size and equal number of hosts.
+It is simple but may waste IP addresses.

@@ -1,12 +1,16 @@
 SHARED_STYLE_RULES = """
-Writing rules — follow strictly:
-- Write like a real person. Warm, clear, and direct.
-- Clean sentences. No bloated or padded phrasing.
-- Never use: delve, it is important to note, in conclusion, utilize, furthermore, leverage, certainly, absolutely, multifaceted.
-- Vary sentence length. Short for punch. Longer for context and depth.
-- Never start with Sure! or Here is... or Great question!
-- No hollow affirmations. Get straight to the point.
-- Humanized but never unprofessional. Natural but never careless.
+Writing style — match this exactly:
+- Short punchy sentences. Then a longer one for depth and rhythm.
+- Use dashes naturally — like a pause mid-thought.
+- Warm and human. Never stiff. Never corporate.
+- Specific details over vague generalities. Names, places, numbers, real moments.
+- Never over the top. Grounded emotion, not performance.
+- End with a forward pull — not a summary or conclusion.
+- Never use: delve, push the boundaries, unlock, utilize, leverage, furthermore, certainly, multifaceted, excited to announce, groundbreaking.
+- No hollow affirmations. No filler sentences.
+- Never invent facts not given in the request or past samples.
+- No placeholders like [Your Name]. Write it complete and ready to use.
+- Read the past writing samples carefully and match that exact rhythm and voice.
 """
 
 SYSTEM_PROMPTS = {

@@ -1,0 +1,49 @@
+S-attributed and L-attributed definitions are used in compiler design to associate semantic rules with grammar productions.
+
+An SDD is called S-attributed if it uses only synthesized attributes.
+Properties: uses only synthesized attributes, information flows from child nodes to parent nodes, suitable for bottom-up parsing, easy to implement using LR parsers, evaluation follows postorder traversal.
+Example: E → E1 + T, E.val = E1.val + T.val. Here E1.val and T.val are synthesized and E.val is computed from child nodes.
+Used for arithmetic expression evaluation and intermediate code generation.
+
+An SDD is called L-attributed if its inherited attributes depend only on parent attributes or attributes of symbols to the left.
+Properties: uses synthesized and inherited attributes, information flows left to right, suitable for top-down parsing, supports LL parsing, more flexible than S-attributed definitions.
+Example: S → A B, A.inh = S.inh, B.inh = A.syn.
+Used for type checking, scope handling, and declaration processing.
+
+S-attributed definitions are simple and efficient for bottom-up parsing while L-attributed definitions are more flexible and useful for top-down parsing and semantic analysis.
+
+---
+
+An activation record, also called a stack frame, is a data structure used during the execution of a function call. It stores all information needed to manage a function invocation at run time.
+Whenever a function is called, a new activation record is created, pushed onto the run-time stack, and removed when the function returns.
+This mechanism helps in function calling, recursion, parameter passing, and local variable management.
+
+Typical contents: return address, parameters, local variables, temporary variables, control link pointing to caller's activation record, access link for non-local variables, saved registers.
+
+Activation records support efficient memory management, recursion, modular programming, and control flow.
+
+---
+
+Intermediate Representation is a machine-independent representation of source code used between the front end and back end of a compiler. It helps in code optimization, portability, and easier code generation.
+
+Syntax Tree or AST is a tree representation showing hierarchical structure. Easy for semantic analysis but requires more memory.
+
+Three Address Code uses instructions with at most three addresses. Example: t1 = a + b, t2 = t1 * c. Easy to optimize and widely used but produces many temporary variables.
+
+Postfix Notation places operators after operands. Example: ab+c*. Simple representation with no parentheses needed but difficult to optimize.
+
+Three Address Code is the most commonly used due to its simplicity and optimization support.
+
+---
+
+Peephole optimization is a local optimization technique applied during the final stage of code generation. It examines a small sequence of instructions and replaces inefficient code with efficient code.
+
+Common optimizations:
+Redundant instruction elimination: removes MOV A,B followed by MOV B,A.
+Constant folding: replaces x = 2 + 3 with x = 5.
+Strength reduction: replaces x = y * 2 with x = y + y.
+Dead code elimination: removes unused assignments.
+Algebraic simplification: removes x = x + 0.
+Jump optimization: collapses chained jumps into one direct jump.
+
+Peephole optimization improves execution speed and reduces code size but works only on small code segments and cannot perform global optimization.

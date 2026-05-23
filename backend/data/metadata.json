@@ -2122,5 +2122,257 @@
     "title": "social_captions",
     "chunk_id": 1,
     "text": "ured feeling.\nAt TEDxCUSAT GENESIS, he steps out from behind the lens to reflect on beginnings, how ideas are born, how a single thought evolves into something that moves us, and how every frame we see started long before the camera rolled.\nThis is not just about cinema. It is about the first spark, the first choice, the genesis of vision itself and the courage to share it.\nSujith Vasudev at TEDxCUSAT."
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 0,
+    "text": "S-attributed and L-attributed definitions are used in compiler design to associate semantic rules with grammar productions.\n\nAn SDD is called S-attributed if it uses only synthesized attributes.\nProperties: uses only synthesized attributes, information flows from child nodes to parent nodes, suitable for bottom-up parsing, easy to implement using LR parsers, evaluation follows postorder traversal.\nExample: E \u2192 E1 + T, E.val = E1.val + T.val. Here E1.val and T.val are synthesized and E.val is com"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 1,
+    "text": ", E.val = E1.val + T.val. Here E1.val and T.val are synthesized and E.val is computed from child nodes.\nUsed for arithmetic expression evaluation and intermediate code generation.\n\nAn SDD is called L-attributed if its inherited attributes depend only on parent attributes or attributes of symbols to the left.\nProperties: uses synthesized and inherited attributes, information flows left to right, suitable for top-down parsing, supports LL parsing, more flexible than S-attributed definitions.\nExamp"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 2,
+    "text": "parsing, supports LL parsing, more flexible than S-attributed definitions.\nExample: S \u2192 A B, A.inh = S.inh, B.inh = A.syn.\nUsed for type checking, scope handling, and declaration processing.\n\nS-attributed definitions are simple and efficient for bottom-up parsing while L-attributed definitions are more flexible and useful for top-down parsing and semantic analysis.\n\n---\n\nAn activation record, also called a stack frame, is a data structure used during the execution of a function call. It stores a"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 3,
+    "text": "e, is a data structure used during the execution of a function call. It stores all information needed to manage a function invocation at run time.\nWhenever a function is called, a new activation record is created, pushed onto the run-time stack, and removed when the function returns.\nThis mechanism helps in function calling, recursion, parameter passing, and local variable management.\n\nTypical contents: return address, parameters, local variables, temporary variables, control link pointing to ca"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 4,
+    "text": "s, parameters, local variables, temporary variables, control link pointing to caller's activation record, access link for non-local variables, saved registers.\n\nActivation records support efficient memory management, recursion, modular programming, and control flow.\n\n---\n\nIntermediate Representation is a machine-independent representation of source code used between the front end and back end of a compiler. It helps in code optimization, portability, and easier code generation.\n\nSyntax Tree or A"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 5,
+    "text": "in code optimization, portability, and easier code generation.\n\nSyntax Tree or AST is a tree representation showing hierarchical structure. Easy for semantic analysis but requires more memory.\n\nThree Address Code uses instructions with at most three addresses. Example: t1 = a + b, t2 = t1 * c. Easy to optimize and widely used but produces many temporary variables.\n\nPostfix Notation places operators after operands. Example: ab+c*. Simple representation with no parentheses needed but difficult to "
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 6,
+    "text": "ample: ab+c*. Simple representation with no parentheses needed but difficult to optimize.\n\nThree Address Code is the most commonly used due to its simplicity and optimization support.\n\n---\n\nPeephole optimization is a local optimization technique applied during the final stage of code generation. It examines a small sequence of instructions and replaces inefficient code with efficient code.\n\nCommon optimizations:\nRedundant instruction elimination: removes MOV A,B followed by MOV B,A.\nConstant fol"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 7,
+    "text": "ndant instruction elimination: removes MOV A,B followed by MOV B,A.\nConstant folding: replaces x = 2 + 3 with x = 5.\nStrength reduction: replaces x = y * 2 with x = y + y.\nDead code elimination: removes unused assignments.\nAlgebraic simplification: removes x = x + 0.\nJump optimization: collapses chained jumps into one direct jump.\n\nPeephole optimization improves execution speed and reduces code size but works only on small code segments and cannot perform global optimization."
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_compiler_real",
+    "chunk_id": 8,
+    "text": " small code segments and cannot perform global optimization."
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 0,
+    "text": "Kaif Muhammed's TEDxCUSAT 2026 Talk Is Now Live!\nTune in to an insightful talk by Kaif Muhammed, now streaming on the TEDxCUSAT YouTube channel.\nIn this engaging session, Kaif explores the deeper meaning of earning beyond luxury and social status, highlighting how financial stability brings security, freedom, and balance. Blending personal experience with practical wisdom, he reflects on ambition, discipline, credibility, and continuous learning as pillars of long-term success.\nA young Kerala-ba"
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 1,
+    "text": "lity, and continuous learning as pillars of long-term success.\nA young Kerala-based entrepreneur and founder of Zee Sip, Kaif's journey across multiple ventures offers a grounded, motivating perspective on building a purposeful and meaningful life.\nWatch now and stay connected with us at linktr.ee/tedxcusat\n\n---\n\nDr. Mohamed Fahed V.P.'s TEDxCUSAT 2026 Talk Is Now Live!\nExplore The Automotive Journey: Innovation, Failures, and Breakthroughs \u2014 a talk by Mohamed Fahed V P, a Kerala-based pediatric"
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 2,
+    "text": "lures, and Breakthroughs \u2014 a talk by Mohamed Fahed V P, a Kerala-based pediatrician and acclaimed off-road racing champion.\nIn this engaging session, he traces the evolution of the automotive world from early mechanical experiments to today's smart and electric vehicles, showing how setbacks, failed prototypes, and shifting technologies have fueled innovation. His talk highlights resilience, adaptability, and learning from failure as the true drivers of long-term breakthroughs.\nWatch now on the "
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 3,
+    "text": "g from failure as the true drivers of long-term breakthroughs.\nWatch now on the TEDxCUSAT YouTube channel. Stay connected at linktr.ee/tedxcusat\n\n---\n\nSoft glows, heartfelt laughter, and the magic of the season.\nTEDxCUSAT wishes you a Christmas wrapped in warmth, joy, and meaningful moments. May the holidays spark new perspectives, deeper connections, and a year ahead filled with ideas worth spreading.\n\n---\n\nBeginning another edition of the long awaited \u2014 the sixth edition of TEDxCUSAT.\nWatch pr"
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 4,
+    "text": "g another edition of the long awaited \u2014 the sixth edition of TEDxCUSAT.\nWatch prominent figures from various walks of life come together to bring about the onset of new ideas, perspectives and knowledge, marking the era of transformation from abstract concepts to powerful impacts.\nUnveiling the theme for TEDxCUSAT: Genesis: From Concept to Impact.\nExplore more at linktr.ee/TEDxCUSAT25\n\n---\n\nTickets are now live!\nThe wait is over. Join us at TEDxCUSAT for a day of powerful ideas, inspiring conver"
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 5,
+    "text": "wait is over. Join us at TEDxCUSAT for a day of powerful ideas, inspiring conversations, and unforgettable perspectives.\nSecure your seat and be part of the experience. Limited seats available.\ntedxcusat.in\n\n---\n\nWe're excited to hear your voice in shaping TEDxCUSAT 2025!\nHere's your chance to suggest a speaker who you believe would truly inspire and impact our student community.\nYour suggestions help create a lineup that reflects what matters most to us all.\nLet's build something unforgettable "
+  },
+  {
+    "domain": "social",
+    "title": "social_tedx_real",
+    "chunk_id": 6,
+    "text": " that reflects what matters most to us all.\nLet's build something unforgettable together."
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 0,
+    "text": "TCP fairness ensures that all TCP connections sharing a network get an equal share of bandwidth.\nIt prevents one connection from dominating network resources.\nThis helps maintain balanced network performance.\nFairness is commonly measured using Jain's fairness index.\n\n---\n\nSlow start is a congestion control mechanism in TCP.\nThe congestion window (cwnd) starts from 1 MSS and increases exponentially.\nIt grows with each acknowledgment received.\nThis continues until the threshold value is reached.\n"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 1,
+    "text": "h acknowledgment received.\nThis continues until the threshold value is reached.\n\n---\n\nImplicit signaling means the sender detects congestion through delayed or lost acknowledgments.\nThere is no direct communication from the network.\nExplicit signaling directly informs congestion using bits in packets.\nThis helps sender or receiver react quickly to congestion.\n\n---\n\nSilly Window Syndrome occurs when very small segments are transmitted frequently in TCP.\nThis causes inefficient use of bandwidth an"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 2,
+    "text": "s are transmitted frequently in TCP.\nThis causes inefficient use of bandwidth and increases overhead.\nIt reduces network performance.\nIt is prevented using Nagle's algorithm and Clark's solution.\n\n---\n\nTCP connection termination uses a four-way handshake process.\nFirst, the client sends a FIN segment.\nThe server responds with ACK and later sends its own FIN.\nFinally, the client sends ACK to close the connection.\n\n---\n\nThe advertised window indicates how much data the receiver can accept.\nIt help"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 3,
+    "text": "\n\nThe advertised window indicates how much data the receiver can accept.\nIt helps the sender control transmission rate.\nA zero window occurs when the receiver buffer becomes full.\nThe sender must stop transmission until space becomes available.\n\n---\n\nClass C IP addresses range from 192.0.0.0 to 223.255.255.255.\nThey use the first 24 bits for network and remaining 8 bits for host.\nThe default subnet mask is 255.255.255.0.\nClass C is mainly used for small networks.\n\n---\n\nA subnet mask divides an I"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 4,
+    "text": "5.0.\nClass C is mainly used for small networks.\n\n---\n\nA subnet mask divides an IP address into network and host portions.\nIt helps identify whether devices belong to the same network.\nThe subnet mask 255.255.0.0 belongs to Class B.\nIt uses the first 16 bits for network identification.\n\n---\n\nIn /16 CIDR notation, 16 bits are used for network and 16 bits for hosts.\nTotal host addresses = 65536.\nOut of these, 2 addresses are reserved for network and broadcast.\nTherefore, usable hosts = 65534.\n\n---\n"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 5,
+    "text": "s are reserved for network and broadcast.\nTherefore, usable hosts = 65534.\n\n---\n\nIn the datagram approach, each packet is treated independently.\nThere is no predefined path between source and destination.\nPackets may travel through different routes and arrive out of order.\nIt is used in connectionless communication like IP.\n\n---\n\nFLSM stands for Fixed Length Subnet Mask.\nIn this method, all subnets use the same subnet mask.\nEach subnet has equal size and equal number of hosts.\nIt is simple but m"
+  },
+  {
+    "domain": "assignment",
+    "title": "assignment_networking_real",
+    "chunk_id": 6,
+    "text": "t mask.\nEach subnet has equal size and equal number of hosts.\nIt is simple but may waste IP addresses."
+  },
+  {
+    "domain": "horizon",
+    "title": "horizon_real_emails",
+    "chunk_id": 0,
+    "text": "Hi Genrobotics,\nHope you're doing well!\n\nI'm reaching out from Team Horizon, a student team from CUSAT that designs and builds fully autonomous Mars rovers. Our latest rover, Tiranga 2.0, was developed entirely in-house and is capable of performing tasks like autonomous navigation, terrain exploration, sampling, and diagnostics on simulated Martian environments.\n\nLast year, we had the opportunity to represent India at the European Rover Challenge 2024 in Krak\u00f3w, Poland, where we placed 18th glob"
+  },
+  {
+    "domain": "horizon",
+    "title": "horizon_real_emails",
+    "chunk_id": 1,
+    "text": "t the European Rover Challenge 2024 in Krak\u00f3w, Poland, where we placed 18th globally. We were proud to be the only team from South India at the event \u2014 a milestone that marked a huge moment for all of us.\n\nWe're now working on taking our journey forward with the next version of our rover. Every step ahead involves a mix of innovation, problem-solving, and strong collaboration, and we're currently looking for support to help us reach new heights.\n\nI've attached our brochure so you can get a quick"
+  },
+  {
+    "domain": "horizon",
+    "title": "horizon_real_emails",
+    "chunk_id": 2,
+    "text": "to help us reach new heights.\n\nI've attached our brochure so you can get a quick overview of our work and impact. You can also explore more about us through our socials and project updates here: linktr.ee/horizonmarsroverteam\n\nIf this sounds like something you'd be interested in being a part of, we'd love to have a conversation.\n\nWarmly,\nTeam Horizon, CUSAT\n\n---\n\nDear Robu,\n\nWe are Team Horizon, a student-led rover team from Cochin University of Science and Technology (CUSAT), actively participa"
+  },
+  {
+    "domain": "horizon",
+    "title": "horizon_real_emails",
+    "chunk_id": 3,
+    "text": "eam from Cochin University of Science and Technology (CUSAT), actively participating in national and international robotics competitions.\n\nWe secured Global Ranks 19 and 18 at the European Rover Challenge (ERC), Poland, in 2023 and 2024 respectively, and are the first team from South India to represent India. We also recently competed in the International Rover Challenge (IRC) 2026, achieving a world rank of 25.\n\nWe are currently developing our next-generation rover to participate in the upcomin"
+  },
+  {
+    "domain": "horizon",
+    "title": "horizon_real_emails",
+    "chunk_id": 4,
+    "text": "are currently developing our next-generation rover to participate in the upcoming European Rover Challenge (ERC) 2026, and are seeking support in the form of components for building and testing. A detailed list of required components and our team brochure are attached for your reference.\n\nYour support would provide valuable global visibility for your organization through our participation in international competitions and outreach activities.\n\nWe would be grateful for your support and are happy "
+  },
+  {
+    "domain": "horizon",
+    "title": "horizon_real_emails",
+    "chunk_id": 5,
+    "text": "s and outreach activities.\n\nWe would be grateful for your support and are happy to provide any additional details if needed.\n\nThank you for your consideration.\n\nSincerely,\nIrene Sara Philipose\nTeam Lead\nlinktr.ee/teamhorizoncusat"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 0,
+    "text": "Dr. Gopi isn't your typical corporate leader, he straddles the worlds of deep science and entrepreneurism. With advanced doctorates and global fellowships, he embodies the rare fusion of academic brilliance and a relentless drive to turn breakthrough science into real-world change.\nAt TEDxCUSAT 6.0 | GENESIS, The stage became more than a platform, it transformed into a crucible where ideas were refined, stories were amplified, and purpose was set ablaze.\nTEDxCUSAT didn't merely host Dr. Sreeraj "
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 1,
+    "text": "amplified, and purpose was set ablaze.\nTEDxCUSAT didn't merely host Dr. Sreeraj Gopi; it orchestrated an experience where his journey was distilled like a powerful compound \u2014 isolating truth, intensifying meaning, and releasing impact.\n\n---\n\nTEDxCUSAT 6th Edition hosted speakers with various passions and accomplishments.\nDr. Mohammad Fahed VP was one such speaker hosted at the event. An Ayurvedic pediatrician by profession and an off-road racer by passion, he brought onto the platform his captiv"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 2,
+    "text": "ession and an off-road racer by passion, he brought onto the platform his captivating energy and the story of his inspirational journey in off-road racing, that created a sense of awe within the audience.\nThe TEDxCUSAT team showcased an amazing execution of the event, creating an impact of ideas in the minds of those who attended it and left everyone inspired.\n\n---\n\nStarting as a camera assistant in Thiruvananthapuram to becoming one of Malayalam cinema's most influential cinematographers, Sujit"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 3,
+    "text": "m to becoming one of Malayalam cinema's most influential cinematographers, Sujith Vasudev has painted stories in light and shadow in films like Drishyam, Memories, 7th Day and Lucifer. His works that didn't just capture scenes, but captured feeling.\nAt TEDxCUSAT | GENESIS, he steps out from behind the lens to reflect on beginnings, how ideas are born, how a single thought evolves into something that moves us, and how every frame we see started long before the camera rolled.\nThis isn't just about"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 4,
+    "text": " every frame we see started long before the camera rolled.\nThis isn't just about cinema. It's about the first spark, the first choice, the genesis of vision itself and the courage to share it.\nSujith Vasudev at TEDxCUSAT.\n\n---\n\nSujith Vasudevan, professionally known as Sujith Vaassudev, is an acclaimed cinematographer and film director from Palakkad, Kerala, celebrated for redefining modern Malayalam cinema with iconic films like Drishyam and Memories. From working on over 1000 TV episodes to co"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 5,
+    "text": "ic films like Drishyam and Memories. From working on over 1000 TV episodes to collaborating with stars like Prithviraj Sukumaran, his journey reflects creativity, perseverance, and visual brilliance. A Kerala State Film Award recipient and member of the Indian Society of Cinematographers, Sujith also made a successful transition into direction.\nJoin us as Sujith Vaassudev shares his journey of visual storytelling \u2014 straight from behind the lens to center stage.\n\n---\n\nAparna Premraj is a multifac"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 6,
+    "text": "traight from behind the lens to center stage.\n\n---\n\nAparna Premraj is a multifaceted media personality known for her work as a television anchor, model, and vibrant digital creator. Best recognized as the host of the popular podcast Unfiltered by Aparna, she leads honest conversations around culture, creativity, and personal growth. With her engaging on-screen presence and authentic storytelling, Aparna has carved a unique space in the entertainment world. A LIVA Miss Diva 2023 participant and p"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 7,
+    "text": "unique space in the entertainment world. A LIVA Miss Diva 2023 participant and proud Keralite, she continues to inspire audiences through meaningful content and dynamic social media engagement.\nCatch her live on the TEDxCUSAT stage as Aparna brings her voice, vision, and stories to life.\n\n---\n\nAhmad Al Kaashekh is a multidisciplinary creator who blends intellect, performance, and digital storytelling with authenticity and depth. Known for his thoughtful reaction videos, observational humor, and "
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 8,
+    "text": "y and depth. Known for his thoughtful reaction videos, observational humor, and cultural commentary, Ahmad brings calm insight to every piece of content he creates. A content creator, astronomer, performer, singer, and actor, he mastered the art of scripting, shooting, and editing long before short-form trends took over. Originally from Kerala and now based in the UAE, Ahmad defines himself not by labels, but by meaningful connection and creative purpose.\n\n---\n\nKaif Muhammed isn't your typical y"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 9,
+    "text": "ingful connection and creative purpose.\n\n---\n\nKaif Muhammed isn't your typical young entrepreneur; he strides across the intersecting realms of innovation and enterprise with instinct and intent.\nAt TEDxCUSAT 6.0 | GENESIS, he made the space become more than a stage, it turns into a forge where ambition is sharpened, vision is magnified, and purpose is set alight.\nThe moment doesn't simply feature Kaif Muhammed; it becomes an experience that distills his journey like a potent formula \u2014 clarifyin"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 10,
+    "text": "ecomes an experience that distills his journey like a potent formula \u2014 clarifying insight, amplifying inspiration, and releasing waves of entrepreneurial impact.\n\n---\n\nThis isn't just an event \u2014 it's a movement that never faded.\nTEDxCUSAT 6th Edition Coming Soon.\n\n---\n\nWhether you are a speaker with a story that needs the world, a listener hungry for insight, or a partner eager to fuel innovation, you belong here.\nThis is your invitation to question deeper, listen closer, think braver.\nThe TEDxC"
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 11,
+    "text": "is is your invitation to question deeper, listen closer, think braver.\nThe TEDxCUSAT website is out where ideas don't just speak, they resonate.\n\n---\n\nTEDxCUSAT 2026 Applications are now open.\nWe're building the team behind one of the biggest stages at CUSAT.\nIf you want to work on real ideas, execute at scale, and be part of something that truly matters \u2014 this is your chance.\nLimited roles. Applications will be shortlisted.\nBe more than an attendee. Be the reason it happens."
+  },
+  {
+    "domain": "tedx",
+    "title": "tedx_real_content",
+    "chunk_id": 12,
+    "text": "tlisted.\nBe more than an attendee. Be the reason it happens."
   }
 ]
